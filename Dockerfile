@@ -3,8 +3,6 @@ LABEL maintainer="jjbeekman"
 
 ENV PYTHONUNBUFFERED 1
 ARG DEV=false
-
-EXPOSE 8000
 ENV PATH="/py/bin:$PATH"
 
 COPY ./requirements.txt /tmp/requirements.txt
